@@ -10,7 +10,6 @@ canvas{
     position:absolute;top:0;left:0;
 	z-index: 1000;
 }
-	
 
 #mainNav .navbar-toggler {
 	font-size: 80%;
@@ -99,7 +98,9 @@ canvas{
 }
 .masthead h1 {
 	font-family: "source-han-serif-tc",'Noto Serif', serif;
-	font-size: 2rem;
+	font-size: 25px;
+	position: relative;
+	bottom: 10px;
 	line-height: 4rem;
 	letter-spacing: .4rem;
 	background: #FFFFFF;
@@ -112,7 +113,7 @@ canvas{
 
 @media (min-width:768px) {
 .masthead h1 {
-	font-size: 2rem;
+	font-size: 4rem;
 	line-height: 4rem
 }
 }
@@ -123,7 +124,7 @@ canvas{
 	padding: 0
 }
 .masthead h1 {
-	font-size: 2rem;
+	font-size: 4rem;
 	line-height: 6.5rem;
 	letter-spacing: .8rem;
 	position:static;
@@ -277,8 +278,14 @@ a:focus, a:hover {
 	color: #C91C1F!important
 }
 
-footer {
-	padding: 5rem 0
 }
 
+footer {
+	padding: 5rem 0;
+	background-color:#232323;
+	color:#C91C1F;
+}
+
+.footer.a {
+	color:#C91C1F;
 }
