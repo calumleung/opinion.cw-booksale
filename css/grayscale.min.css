@@ -168,8 +168,16 @@
 @media (min-width:992px) {
 .projects-section .featured-text {
 	padding: 0 0 0 2rem;
-	border-left: .5rem solid #64a19d
+	border-left: .5rem solid #001a33
 }
+
+@media (min-width:992px) {
+.projects-section .right .featured-text  {
+	padding: 0 2 0 0rem;
+	border-right: .5rem solid #001a33;
+	border-left: .0rem solid #001a33
+}
+	
 }
 .projects-section .project-text {
 	padding: 3rem;
