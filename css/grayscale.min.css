@@ -93,21 +93,20 @@
 }
 .masthead h1 {
 	font-family: "source-han-serif-tc",'Noto Serif', serif;
-	font-size: 2.5rem;
-	line-height: 2.5rem;
-	letter-spacing: .8rem;
-	background: -webkit-linear-gradient(rgb(214, 12, 24), rgb(214, 12, 24));
-	-webkit-text-fill-color: transparent;
+	font-size: 2rem;
+	line-height: 4rem;
+	letter-spacing: .4rem;
+	background: #FFFFFF;
 	-webkit-background-clip: text
 }
 .masthead h2 {
 	max-width: 20rem;
-	font-size: 1rem
+	font-size: 2rem
 }
 
 @media (min-width:768px) {
 .masthead h1 {
-	font-size: 4rem;
+	font-size: 2rem;
 	line-height: 4rem
 }
 }
@@ -118,9 +117,10 @@
 	padding: 0
 }
 .masthead h1 {
-	font-size: 6.5rem;
+	font-size: 2rem;
 	line-height: 6.5rem;
-	letter-spacing: .8rem
+	letter-spacing: .8rem;
+	position:static;
 }
 .masthead h2 {
 	max-width: 30rem;
@@ -270,6 +270,11 @@ a:focus, a:hover {
 .text-primary {
 	color: #64a19d!important
 }
+
 footer {
 	padding: 5rem 0
+}
+
+canvas{
+    position:absolute;top:0;left:0;
 }
