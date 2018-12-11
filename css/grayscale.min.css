@@ -2,7 +2,12 @@
  * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */#mainNav {
+
+ */
+
+@import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+#mainNav {
 	min-height: 56px;
 	background-color: #fff
 }
@@ -97,7 +102,7 @@ canvas{
 	background-size: cover
 }
 .masthead h1 {
-	font-family: 'Noto Serif CJK TC', 'Noto Serif CJK TC Black', 'Noto Serif CJK TC ExtraLight', 'Noto Serif CJK TC Light', 'Noto Serif CJK TC Medium', 'Noto Serif CJK TC SemiBold';
+	font-family: 'cwTeXFangSong', serif;
 	font-size: 23px;
 	position: relative;
 	bottom: 10px;
