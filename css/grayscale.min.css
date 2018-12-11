@@ -118,6 +118,17 @@ canvas{
 }
 }
 
+@media (min-width:576px) {
+.masthead h1 {
+	font-size: 2rem;
+	line-height: 4rem;
+	position:absolute;
+	height: 100px;
+	top: 50px;
+	bottom: 50px;
+}
+}
+
 @media (min-width:992px) {
 .masthead {
 	height: 100vh;
