@@ -95,43 +95,46 @@ canvas{
 	height: auto;
 	min-height: 35rem;
 	padding: 15rem 0;
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22,22,22,.1)), color-stop(75%, rgba(22,22,22,.5)), to(#161616)), url(https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201812/article-5c0f753dcf440.png);
-	background: linear-gradient(to bottom, rgba(22,22,22,.1) 0, rgba(22,22,22,.5) 75%, #161616 100%), url(https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201812/article-5c0f753dcf440.png);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22,22,22,.1)), color-stop(75%, rgba(22,22,22,.5)), to(#161616)), url(https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201812/article-5c0f7afce1a95.png);
+	background: linear-gradient(to bottom, rgba(22,22,22,.1) 0, rgba(22,22,22,.5) 75%, #161616 100%), url(https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201812/article-5c0f7afce1a95.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover
 }
 .masthead h1 {
-	font-family:  ''cwTeXFangSong', serif;
+	font-family:  'cwTeXFangSong', serif;
 	font-size: 23px;
 	position: relative;
-	bottom: 10px;
-	line-height: 4rem;
-	letter-spacing: .4rem;
+	bottom: 5px;
+	line-height: 2rem;
+	letter-spacing: .2rem;
 	background: #FFFFFF;
-	-webkit-background-clip: text
+	-webkit-background-clip: text;
+	font-weight: 500;
 }
 .masthead h2 {
 	max-width: 20rem;
-	font-size: 2rem
+	font-size: 1rem
 }
 
 @media (min-width:576px) {
 .masthead h1 {
 	font-size: 2rem;
-	line-height: 4rem;
+	line-height: 2rem;
 	position:absolute;
 	height: 100px;
 	top: 50px;
 	bottom: 50px;
+	font-weight: 500;
 }
 }
 
 @media (min-width:768px) {
 .masthead h1 {
-	font-size: 4rem;
-	line-height: 4rem
+	font-size: 3rem;
+	line-height: 4rem;
+	font-weight: 500;
 }
 }
 
@@ -150,7 +153,7 @@ canvas{
 }
 .masthead h2 {
 	max-width: 30rem;
-	font-size: 1.25rem
+	font-size: 2.5rem
 }
 }
 .btn {
