@@ -104,23 +104,26 @@ canvas{
 }
 .masthead h1 {
 	font-family:  Noto Sans TC, 微軟正黑體;
-	font-size: 23px;
+	font-size: 40px;
 	position: relative;
-	bottom: 1px;
-	line-height: 2rem;
+	bottom: 4px;
+	top: 5px;
+	line-height: 3rem;
 	letter-spacing: 0.2rem;
 	background: #FFFFFF;
 	-webkit-background-clip: text;
 	font-weight: 500;
 }
 .masthead h2 {
+	position: relative;
+	margin-top: 10px;
 	max-width: 20rem;
-	font-size: 1rem
+	font-size: 25px;
 }
 
 @media (min-width:576px) {
 .masthead h1 {
-	font-size: 2rem;
+	font-size: 4rem;
 	line-height: 3rem;
 	position:absolute;
 	height: 100px;
@@ -132,12 +135,12 @@ canvas{
 
 @media (min-width:768px) {
 .masthead h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 	line-height: 4rem;
 	font-weight: 500;
+	height: auto;
 }
 }
-
 
 
 @media (min-width:992px) {
@@ -147,13 +150,16 @@ canvas{
 }
 .masthead h1 {
 	font-size: 4rem;
-	line-height: 6.5rem;
+	line-height: 4.7rem;
 	letter-spacing: .8rem;
 	position:static;
+	height: auto;
 }
 .masthead h2 {
 	max-width: 30rem;
-	font-size: 2.5rem
+	font-size: 2.5rem;
+	position:static;
+	height: auto;
 }
 }
 .btn {
