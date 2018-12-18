@@ -206,14 +206,15 @@ canvas{
 		top: 110px;
 	}
 
-	.masthead img{
+	.masthead img img-fluid float-right{
 	position: relative;
 	top: 90px;
+	padding-left: 100px;
 }
 	.masthead a{
 		position: relative;
-		top: 85%;
-		left: 50%;
+		top: 70px;
+		left: 45%;
 		z-index: 1100;
 		
 	}
