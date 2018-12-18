@@ -134,8 +134,8 @@ canvas{
 
 .masthead a{
 		position: absolute;
-		top: 440px;
-		left: 150px;
+		top: 40%;
+		left: 50%;
 		z-index: 1100;
 	}
 
@@ -212,9 +212,10 @@ canvas{
 }
 	.masthead a{
 		position: relative;
-		top: 140px;
-		left: 450px;
+		top: 85%;
+		left: 50%;
 		z-index: 1100;
+		
 	}
 }
 .btn {
