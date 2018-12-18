@@ -121,6 +121,24 @@ canvas{
 	font-size: 25px;
 }
 
+.masthead p {
+	position: relative;
+	height: auto;
+	top: 30px;
+}
+
+.masthead img{
+	position: relative;
+	top: 20px;
+}
+
+.masthead a{
+		position: relative;
+		top: 20px;
+		left: 140px;
+		z-index: 1100;
+	}
+
 @media (min-width:576px) {
 /*
 .masthead h1 {
@@ -141,8 +159,9 @@ canvas{
 	font-size: 4rem;
 	line-height: 4.7rem;
 	letter-spacing: .8rem;
-	position:static;
+	position:relative;
 	height: auto;
+    left: 10px;	
 }
 .masthead h2 {
 	max-width: 30rem;
@@ -165,21 +184,38 @@ canvas{
 @media (min-width:992px) {
 .masthead {
 	height: 100vh;
-	padding: 0
+	padding: 0;
 }
 .masthead h1 {
 	font-size: 4rem;
 	line-height: 4.7rem;
 	letter-spacing: .8rem;
-	position:static;
+	position:relative;
+	top: 100px;
 	height: auto;
 }
 .masthead h2 {
 	max-width: 30rem;
 	font-size: 2.5rem;
-	position:static;
+	position:relative;
+	top: 100px;
 	height: auto;
 }
+	.masthead p{
+		position: relative;
+		top: 110px;
+	}
+
+	.masthead img{
+	position: relative;
+	top: 90px;
+}
+	.masthead a{
+		position: relative;
+		top: 140px;
+		left: 450px;
+		z-index: 1100;
+	}
 }
 .btn {
 	-webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
@@ -195,10 +231,10 @@ canvas{
 	background-color: #C91C1F
 }
 .btn-primary:hover {
-	background-color: #4f837f
+	background-color: #C91C1F
 }
 .btn-primary:focus {
-	background-color: #4f837f;
+	background-color: #C91C1F;
 	color: #fff
 }
 .btn-primary:active {
