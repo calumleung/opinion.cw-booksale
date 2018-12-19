@@ -219,6 +219,54 @@ canvas {
 	z-index: 1100;
 }
 }
+
+@media (min-width:1900px) {
+.masthead {
+	height: 100vh;
+	padding: 2;
+	
+}
+	
+.masthead .headtitle{
+		position: relative;
+		top: 100px;
+	}
+	
+.masthead h1 {
+	max-width: 30rem;
+	font-size: 3rem;
+	line-height: 3rem;
+	letter-spacing: .8rem;
+	position: relative;
+	top: 210px;
+}
+.masthead h2 {
+	max-width: 30rem;
+	font-size: 1.5rem;
+	position: relative;
+	top: 200px;
+}
+.masthead p {
+	position: relative;
+	top: 220px;
+	line-height: 1rem;
+}
+	
+.masthead img {
+	position: relative;
+	top: 160px;
+	padding-left: 120px;
+}	
+	
+.masthead a {
+	position: relative;
+	top: 90px;
+	z-index: 1100;
+	left: 35%;
+}
+}
+
+
 .btn {
 	-webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
 	box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
