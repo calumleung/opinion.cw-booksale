@@ -7,16 +7,16 @@
 
 @import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 @import url(//fonts.googleapis.com/earlyaccess/cwtexming.css);
-
 #mainNav {
 	min-height: 56px;
 	background-color: #fff
 }
-canvas{
-    position:absolute;top:0;left:0;
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: 1000;
 }
-
 #mainNav .navbar-toggler {
 	font-size: 80%;
 	padding: .75rem;
@@ -92,7 +92,6 @@ canvas{
 .masthead {
 	position: relative;
 	width: 100%;
-	height: auto;
 	min-height: 35rem;
 	padding: 8rem 0;
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22,22,22,.1)), color-stop(75%, rgba(22,22,22,.5)), to(#161616)), url(https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201812/article-5c0f7afce1a95.png);
@@ -103,7 +102,7 @@ canvas{
 	background-size: cover
 }
 .masthead h1 {
-	font-family:  Noto Sans TC, 微軟正黑體;
+	font-family: Noto Sans TC, 微軟正黑體;
 	font-size: 40px;
 	position: relative;
 	bottom: 4px;
@@ -120,24 +119,21 @@ canvas{
 	max-width: 20rem;
 	font-size: 25px;
 }
-
 .masthead p {
 	position: relative;
 	height: auto;
 	top: 8px;
 }
-
-.masthead img{
+.masthead img {
 	position: relative;
 	top: 70px;
 }
-
-.masthead a{
-		position: absolute;
-		top: 40%;
-		left: 45%;
-		z-index: 1100;
-	}
+.masthead a {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	z-index: 1100;
+}
 
 @media (min-width:576px) {
 /*
@@ -151,7 +147,7 @@ canvas{
 	font-weight: 500;
 }
 */
-	.masthead {
+.masthead {
 	height: 100vh;
 	padding: 0
 }
@@ -159,14 +155,14 @@ canvas{
 	font-size: 4rem;
 	line-height: 4.7rem;
 	letter-spacing: .8rem;
-	position:relative;
+	position: relative;
 	height: auto;
-    left: 10px;	
+	left: 10px;
 }
 .masthead h2 {
 	max-width: 30rem;
 	font-size: 2.5rem;
-	position:static;
+	position: static;
 	height: auto;
 }
 }
@@ -180,42 +176,48 @@ canvas{
 }
 }
 
-
 @media (min-width:992px) {
 .masthead {
 	height: 100vh;
 	padding: 2;
+	
 }
+	
+.masthead .headtitle{
+		position: relative;
+		top: 100px;
+	}
+	
 .masthead h1 {
+	max-width: 30rem;
 	font-size: 3rem;
-	line-height: 3.5rem;
+	line-height: 3rem;
 	letter-spacing: .8rem;
-	position:relative;
-	top: 130px;
+	position: relative;
+	top: 150px;
 }
 .masthead h2 {
 	max-width: 30rem;
 	font-size: 1.5rem;
-	position:relative;
-	top: 120px;
-}
-	.masthead p{
-		position: relative;
-		top: 140px;
-	}
-
-	.masthead img img-fluid float-right{
 	position: relative;
-	top: 90px;
+	top: 140px;
+}
+.masthead p {
+	position: relative;
+	top: 160px;
+	line-height: 1rem;
+}
+.masthead img .img-fluid .float-right {
+	position: relative;
+	top: 120px;
 	padding-left: 100px;
 }
-	.masthead a{
-		position: relative;
-		top: 70px;
-		left: 45%;
-		z-index: 1100;
-		
-	}
+.masthead a {
+	position: relative;
+	top: 50px;
+	left: 45%;
+	z-index: 1100;
+}
 }
 .btn {
 	-webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
@@ -227,6 +229,11 @@ canvas{
 	letter-spacing: .15rem;
 	border: 0
 }
+
+.btn-secondary{
+	background-color: #6c757d;
+}
+
 .btn-secondary:hover {
 	background-color: #333333;
 }
@@ -235,8 +242,9 @@ canvas{
 	color: #fff
 }
 .btn-secondary:active {
-	background-color: #333333!important
+	background-color: #6c757d!important
 }
+
 
 .btn-primary {
 	background-color: #C91C1F
@@ -265,36 +273,34 @@ canvas{
 .projects-section .featured-text {
 	padding: 3rem
 }
-.projects-section p{
+.projects-section p {
 	font-size: 20px;
 }
+
 @media (min-width:992px) {
 .projects-section .featured-text {
 	padding: 0 0 0 2rem;
 	border-left: .5rem solid #001a33
 }
-
-@media (min-width:992px) {
-.projects-section .right .featured-text  {
-	padding: 0 2 0 0rem;
-	border-right: .5rem solid #001a33;
-	border-left: .0rem solid #001a33
+ @media (min-width:992px) {
+.projects-section .right .featured-text {
+ padding: 0 2 0 0rem;
+ border-right: .5rem solid #001a33;
+ border-left: .0rem solid #001a33
 }
-	
 }
 .projects-section .project-text {
 	padding: 3rem;
 	font-size: 90%
 }
-
-@media (min-width:992px) {
+ @media (min-width:992px) {
 .projects-section .project-text {
-	padding: 5rem
+ padding: 5rem
 }
 .projects-section .project-text hr {
-	border-color: #C91C1F;
-	border-width: .25rem;
-	width: 30%
+ border-color: #C91C1F;
+ border-width: .25rem;
+ width: 30%
 }
 }
 .signup-section {
@@ -373,15 +379,12 @@ a:focus, a:hover {
 .text-primary {
 	color: #C91C1F!important
 }
-
 }
-
 footer {
 	padding: 5rem 0;
-	background-color:#232323;
-	color:#C91C1F;
+	background-color: #232323;
+	color: #C91C1F;
 }
-
 .footer.a {
-	color:#C91C1F;
+	color: #C91C1F;
 }
