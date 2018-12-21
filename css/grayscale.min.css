@@ -277,15 +277,25 @@ canvas {
 	line-height: 1rem;
 }
 	
-.masthead img {
+.masthead a img {
 	position: relative;
-	top: 160px;
+	top: 100px;
 	padding-left: 120px;
+	min-height: 120px;
 }	
 	
-.masthead a {
+.masthead .headerbook img {
 	position: relative;
-	top: 90px;
+	top: 70px;
+	min-height: 450px;
+	min-width: 450px; 
+	max-width: 500px;
+	max-height: 500px;
+}
+	
+.masthead a {
+	position: absolute;
+	top: 400px;
 	z-index: 1100;
 	left: 35%;
 }
