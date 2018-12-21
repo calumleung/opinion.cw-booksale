@@ -293,6 +293,10 @@ canvas {
 	background-color: #6c757d!important
 }
 
+.projects-section .disabled {
+	pointer-events: none;
+	background-color: #f2f2f2;
+}
 
 .btn-primary {
 	background-color: #C91C1F
