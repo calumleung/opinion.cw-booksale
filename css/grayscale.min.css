@@ -142,7 +142,7 @@ canvas {
 .masthead .headerbook img {
 	position: relative;
 	top: 20px;
-	left: 10%;
+	left: 20%;
 	max-height: 300px;
 	max-width: 300px; 
 }
@@ -184,14 +184,6 @@ canvas {
 }
 }
 
-@media (min-width:768px) {
-.masthead h1 {
-	font-size: 4rem;
-	line-height: 4rem;
-	font-weight: 500;
-	height: auto;
-}
-}
 
 @media (min-width:992px) {
 .masthead {
