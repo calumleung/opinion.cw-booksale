@@ -93,6 +93,7 @@ canvas {
 	position: relative;
 	width: 100%;
 	min-height: 35rem;
+	max-height: 43rem;
 	padding: 8rem 0;
 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22,22,22,.1)), color-stop(75%, rgba(22,22,22,.5)), to(#161616)), url( https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201812/article-5c0f7afce1a95.png);
 	background: linear-gradient(to bottom, rgba(22,22,22,.1) 0, rgba(22,22,22,.5) 75%, #161616 100%), url(https://storage.googleapis.com/futurecity-cms-cwg-tw/article/201812/article-5c0f7afce1a95.png);
@@ -116,23 +117,39 @@ canvas {
 .masthead h2 {
 	position: relative;
 	margin-top: 10px;
-	max-width: 20rem;
-	font-size: 25px;
+	max-width: 30rem;
+	font-size: 20px;
 }
 .masthead p {
 	position: relative;
 	height: auto;
+	line-height: 1rem;
 	top: 8px;
 }
-.masthead img {
+.masthead img  {
 	position: relative;
-	top: 70px;
+	top: 10px;
+	max-width: 70%;
+	align-items: center;
 }
 .masthead a {
-	position: relative;
-	top: 30px;
-	left: 40%;
+	position: absolute;
+	top: 370px;
+	left: 43%;
 	z-index: 1100;
+}
+
+.masthead .headerbook img {
+	position: relative;
+	top: 20px;
+	left: 10%;
+	max-height: 300px;
+	max-width: 300px; 
+}
+
+	
+.masthead a img{
+	max-height: 65px;
 }
 
 @media (min-width:576px) {
@@ -183,41 +200,49 @@ canvas {
 	
 }
 	
-.masthead .headtitle{
-		position: relative;
-		top: 100px;
-	}
 	
 .masthead h1 {
-	max-width: 30rem;
-	font-size: 3rem;
-	line-height: 3rem;
-	letter-spacing: .8rem;
-	position: relative;
-	top: 150px;
-}
-.masthead h2 {
-	max-width: 30rem;
-	font-size: 1.5rem;
+	max-width: 50rem;
+	font-size: 4rem;
+	line-height: 4rem;
+	letter-spacing: .3rem;
 	position: relative;
 	top: 140px;
 }
+.masthead h2 {
+	max-width: 50rem;
+	font-size: 1.7rem;
+	position: relative;
+	top: 100px;
+}
 .masthead p {
 	position: relative;
-	top: 160px;
+	top: 180px;
 	line-height: 1rem;
+	font-size: 1.5rem;
 }
-.masthead img .img-fluid .float-right {
+
+	
+.masthead .headerbook img {
 	position: relative;
-	top: 120px;
-	padding-left: 100px;
+	top: 70px;
+	min-height: 450px;
+	min-width:450px; 
 }
+
 .masthead a {
 	position: relative;
-	top: 40px;
-	left: 45%;
+	top: 0px;
+	left: 35%;
+	padding-left: 100px;
 	z-index: 1100;
 }
+	
+.masthead a img{
+	max-height: 70px;
+}
+	
+	
 }
 
 @media (min-width:1900px) {
