@@ -118,13 +118,14 @@ canvas {
 	position: relative;
 	margin-top: 10px;
 	max-width: 30rem;
-	font-size: 20px;
+	font-size: 25px;
 }
 .masthead p {
 	position: relative;
 	height: auto;
 	line-height: 1rem;
-	top: 8px;
+	top: 10px;
+	font-size: 18px;
 }
 .masthead img  {
 	position: relative;
@@ -134,17 +135,17 @@ canvas {
 }
 .masthead a {
 	position: absolute;
-	top: 370px;
-	left: 43%;
+	top: 380px;
+	left: 44%;
 	z-index: 1100;
 }
 
 .masthead .headerbook img {
 	position: relative;
 	top: 70px;
-	left: 10%;
-	max-height: 350px;
-	max-width: 350px; 
+	left: 4%;
+	max-height: 310px;
+	max-width: 310px; 
 }
 
 	
@@ -195,21 +196,21 @@ canvas {
 	
 .masthead h1 {
 	max-width: 50rem;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	line-height: 4rem;
 	letter-spacing: .3rem;
 	position: relative;
-	top: 140px;
+	top: 180px;
 }
 .masthead h2 {
 	max-width: 50rem;
-	font-size: 1.7rem;
+	font-size: 2rem;
 	position: relative;
-	top: 100px;
+	top: 140px;
 }
 .masthead p {
 	position: relative;
-	top: 180px;
+	top: 220px;
 	line-height: 1rem;
 	font-size: 1.5rem;
 }
@@ -218,12 +219,14 @@ canvas {
 .masthead .headerbook img {
 	position: relative;
 	top: 150px;
-	min-width:500px;
+	min-width:600px;
+	min-height: 375px;
+	
 }
 
 .masthead a {
 	position: relative;
-	top: 160px;
+	top: 200px;
 	left: 35%;
 	padding-left: 100px;
 	z-index: 1100;
@@ -249,23 +252,24 @@ canvas {
 	}
 	
 .masthead h1 {
-	max-width: 30rem;
-	font-size: 3rem;
-	line-height: 3rem;
+	max-width: 40rem;
+	font-size: 4rem;
+	line-height: 4rem;
 	letter-spacing: .8rem;
 	position: relative;
 	top: 210px;
 }
 .masthead h2 {
 	max-width: 30rem;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	position: relative;
 	top: 200px;
 }
 .masthead p {
 	position: relative;
-	top: 220px;
-	line-height: 1rem;
+	top: 240px;
+	line-height: 1.2rem;
+	font-size: 30px;
 }
 	
 .masthead a img {
@@ -277,16 +281,15 @@ canvas {
 	
 .masthead .headerbook img {
 	position: relative;
-	top: 70px;
-	min-height: 450px;
-	min-width: 450px; 
-	max-width: 500px;
-	max-height: 500px;
+	top: 200px;
+		min-width: 600px; 
+	min-height: 375px;
+
 }
 	
 .masthead a {
 	position: absolute;
-	top: 400px;
+	top: 450px;
 	z-index: 1100;
 	left: 35%;
 }
