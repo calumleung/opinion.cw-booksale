@@ -95,8 +95,8 @@ canvas {
 	min-height: 40rem;
 	max-height: 50rem;
 	padding: 8rem 0;
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22,22,22,.1)), color-stop(75%, rgba(22,22,22,.5)), to(#161616)), url(https://topic.cw.com.tw/newBusiness/opinion/ebooks201812//img/header2.png);
-	background: linear-gradient(to bottom, rgba(22,22,22,.1) 0, rgba(22,22,22,.5) 75%, #161616 100%), url(https://topic.cw.com.tw/newBusiness/opinion/ebooks201812//img/header2.png);
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(22,22,22,.1)), color-stop(75%, rgba(22,22,22,.5)), to(#161616)), url(../img/header2.png);
+	background: linear-gradient(to bottom, rgba(22,22,22,.1) 0, rgba(22,22,22,.5) 75%, #161616 100%), url(../img/header2.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
